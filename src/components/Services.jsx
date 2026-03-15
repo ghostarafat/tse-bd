@@ -68,7 +68,7 @@ const Services = () => {
 
                 {/* Details Button */}
                 <div className="mt-auto">
-                  <button className="px-7 py-2.5 bg-[#3cb371] hover:bg-[#2e8b57] text-white font-semibold rounded shadow-md transition-all duration-200">
+                  <button className="px-7 py-2.5 bg-red-500 hover:bg-red-700 text-white font-semibold rounded shadow-md transition-all duration-200">
                     Details
                   </button>
                 </div>

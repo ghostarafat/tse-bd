@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { GrEbay } from "react-icons/gr";
 
 const slides = [
   {
@@ -71,29 +72,17 @@ export default function HeroSection() {
             <span className="text-white">E</span>
           </div>
 
-          <ul className="hidden md:flex gap-8 uppercase text-sm font-medium">
-            <li
-              style={{ color: redColor }}
-              className="hover:opacity-80 cursor-pointer"
-            >
+          <ul className="hidden md:flex gap-8 uppercase text-sm font-bold">
+            <li className="text-white hover:text-[#ec1f27] cursor-pointer transition-colors duration-300">
               Home
             </li>
-            <li
-              style={{ color: redColor }}
-              className="hover:opacity-80 cursor-pointer"
-            >
+            <li className="text-white hover:text-[#ec1f27] cursor-pointer transition-colors duration-300">
               About
             </li>
-            <li
-              style={{ color: redColor }}
-              className="hover:opacity-80 cursor-pointer"
-            >
+            <li className="text-white hover:text-[#ec1f27] cursor-pointer transition-colors duration-300">
               Services
             </li>
-            <li
-              style={{ color: redColor }}
-              className="hover:opacity-80 cursor-pointer"
-            >
+            <li className="text-white hover:text-[#ec1f27] cursor-pointer transition-colors duration-300">
               Contact
             </li>
           </ul>

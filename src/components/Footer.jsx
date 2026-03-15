@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Left Section: Logo & Brand (Seven Business Style) */}
         <div className="flex flex-col space-y-4">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-1 bg-green-500"></div>
+            <div className="w-8 h-1 bg-red-500"></div>
             <h2 className="text-white text-3xl font-bold leading-tight">
               The Software <br /> Engineers
             </h2>
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Back to Top Button */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="mt-4 md:mt-0 bg-red-600 p-2 rounded hover:bg-red-700 transition"
+          className="fixed bottom-6 right-6 z-50 bg-gray-400/30  p-3 rounded hover:bg-gray-500/50 transition shadow-lg"
         >
           <svg
             className="w-4 h-4 text-white"
