@@ -3,7 +3,7 @@ import React from "react";
 const ClientsSection = () => {
   // Client data array for easy management
   const clients = [
-    { name: "MYOB", logo: "https://via.placeholder.com/150?text=myob" }, // Replace with actual logo paths
+    { name: "MYOB", logo: "https://via.placeholder.com/150?text=myob" },
     { name: "Belimo", logo: "https://via.placeholder.com/150?text=BELIMO" },
     {
       name: "LifeGroups",
@@ -22,7 +22,6 @@ const ClientsSection = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        {/* Header Section */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 uppercase mb-2">
             CLIENTS

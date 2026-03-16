@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-400 py-12 px-6 md:px-16 font-sans relative">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-        {/* Left Section: Logo & Brand (Seven Business Style) */}
+        {/* Left Section: Logo & Brand */}
         <div className="flex flex-col space-y-4">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-1 bg-red-500"></div>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Middle Section: Services (TSE Content) */}
+        {/* Middle Section: Services */}
         <div>
           <h3 className="text-white text-lg font-semibold mb-6">Services</h3>
           <ul className="space-y-3 text-sm">
@@ -48,23 +48,26 @@ const Footer = () => {
             <li className="hover:text-white cursor-pointer transition">
               Multimedia Solution
             </li>
+            <li className="hover:text-white cursor-pointer transition">
+              Digital Marketing
+            </li>
           </ul>
         </div>
 
-        {/* Right Section: Contact (Seven Business Layout + TSE Info) */}
+        {/* Right Section: Contact */}
         <div>
           <h3 className="text-white text-lg font-semibold mb-6">Contact</h3>
           <ul className="space-y-4 text-sm">
             <li className="flex items-start space-x-3">
-              <FaEnvelope className="text-green-500 mt-1" />
+              <FaEnvelope className="text-red-500 mt-1" />
               <span>infos@tsebd.com</span>
             </li>
             <li className="flex items-start space-x-3">
-              <FaPhoneAlt className="text-green-500 mt-1" />
+              <FaPhoneAlt className="text-red-500 mt-1" />
               <span>+880 1574 885 570</span>
             </li>
             <li className="flex items-start space-x-3">
-              <FaMapMarkerAlt className="text-green-500 mt-1" />
+              <FaMapMarkerAlt className="text-red-500 mt-1" />
               <span>
                 House 6, Road 2, Block D, <br />
                 Banasree, Rampura, Dhaka.
@@ -74,7 +77,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
         <p>© The Software Engineers – 2026. All rights reserved.</p>
 

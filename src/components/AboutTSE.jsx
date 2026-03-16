@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar, Code, Layout, TrendingUp } from "lucide-react"; // Lucide icons bebohar kora hoyeche
+import { Calendar, Code, Layout, TrendingUp } from "lucide-react";
 
 const AboutTSE = () => {
   const stats = [
@@ -53,10 +53,9 @@ const AboutTSE = () => {
           </div>
         </div>
 
-        {/* Right Image/Bio Side */}
+        {/* Right Image */}
         <div className="w-full md:w-1/2 relative">
           <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-xl">
-            {/* Ekhane apnar image-ti boshate paren */}
             <img
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000"
               alt="TSE Specialist"
@@ -67,7 +66,7 @@ const AboutTSE = () => {
       </div>
 
       {/* Bottom Description Section */}
-      <div className="max-w-6xl mx-auto mt-12 text-gray-600 leading-relaxed border-t pt-8">
+      <div className="max-w-6xl mx-auto mt-12 text-gray-600 leading-relaxed border-t border-gray-400 pt-8">
         <p>
           At <strong>The Software Engineers</strong>, we are passionate about
           delivering innovative and tailored solutions to help businesses thrive
